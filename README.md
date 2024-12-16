@@ -29,14 +29,20 @@ To run this project, ensure you have the following installed:
 - Python 3.8 or above
 - Jupyter Notebook
 - Required libraries (install via the command below):
-
-```bash
+- 
+# Usage
 pip install -r requirements.txt
 
-# Usage
-Clone the repository:
+# Clone the repository
 git clone https://github.com/BineeshaBaby/SVM-Tutorial.git
+
+# Navigate to the project directory
 cd SVM-Tutorial
+
+# Open the notebook
+jupyter notebook SVM.ipynb
+
+
 # Navigate to the project directory:
 cd your-repo-name
 #Open the notebook:
@@ -46,32 +52,40 @@ Follow the steps in the notebook to train and evaluate the SVM model.
 # Dataset
 Specify the dataset used in this project:
 
--Dataset name: Iris Data Set
+-Dataset name: Iris DataSet
 -Source: https://archive.ics.uci.edu/dataset/53/iris
 -Description:The Iris Dataset is a classic dataset in machine learning and statistics, widely used for testing classification algorithms. It is simple, small in size, and perfect for beginners in data science.
 
-# Results
+![Decision Boundary](path/to/image.png)
+
+## Results
+
 The Support Vector Machine (SVM) model was trained and evaluated on the Iris dataset. Below are the key results:
 
-# Model Performance
-Accuracy: 97% (using the default train-test split or cross-validation)
-Precision: 96% (average across all classes)
-Recall: 97% (average across all classes)
-F1-Score: 96% (average across all classes)
-Confusion Matrix
-The confusion matrix shows how well the model classifies each flower species:
+### Model Performance
+- **Accuracy**: 97%
+- **Precision**: 96% (average across all classes)
+- **Recall**: 97% (average across all classes)
+- **F1-Score**: 96% (average across all classes)
 
-Actual / Predicted	Setosa	Versicolor	Virginica
-Setosa	50	0	0
-Versicolor	0	47	3
-Virginica	0	2	48
-Decision Boundary Visualization
-The decision boundaries were visualized for different feature pairs, showing clear separation between the three classes. Below is an example plot:
+### Confusion Matrix
+The confusion matrix shows the model's classification performance:
 
+| Actual / Predicted | Setosa | Versicolor | Virginica |
+|---------------------|--------|------------|-----------|
+| **Setosa**          | 50     | 0          | 0         |
+| **Versicolor**      | 0      | 47         | 3         |
+| **Virginica**       | 0      | 2          | 48        |
 
-# Key Insights
-The SVM with a radial basis function (RBF) kernel performed exceptionally well in separating the three classes.
-Most misclassifications occurred between Versicolor and Virginica, which have overlapping feature distributions.
+### Decision Boundary Visualization
+The decision boundaries for SVM are visualized for different feature pairs, showing clear separation between classes:
+
+![Decision Boundary](path/to/decision_boundary_image.png)
+
+### Key Insights
+- The SVM model, using the RBF kernel, performed exceptionally well in separating the three Iris species.
+- Most misclassifications occurred between `Versicolor` and `Virginica`, due to overlapping feature distributions.
+.
 
 # Contribution
 Contributions are welcome! Follow these steps to contribute:

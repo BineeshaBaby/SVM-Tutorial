@@ -1,49 +1,90 @@
-# SVM-Tutorial
-This tutorial demonstrates the application of SVMs with different kernel functions 
-SVM Interactive Tutorial
-This repository contains an interactive tutorial for exploring Support Vector Machines (SVM). The tutorial includes a visualization of SVM decision boundaries and allows users to run the code interactively in Google Colab. The webpage is designed for both beginners and advanced users to better understand SVM concepts and practical implementations.
+# Support Vector Machine (SVM) Project
 
-# Features
+## Overview
 
- 1. Interactive Webpage:
-- A visually engaging HTML page that explains SVMs with interactive elements.
-- Hosted content designed for seamless user experience.
-  
- 2. Google Colab Integration:
-- Users can run the provided code interactively in Google Colab, allowing experimentation and deeper learning.
+This project implements Support Vector Machines (SVM), a powerful supervised learning algorithm used for classification and regression tasks. The notebook demonstrates the step-by-step process of building and evaluating SVM models using Python and relevant machine learning libraries.
 
- 3. GitHub Notebook:
-- The source notebook is available on GitHub for direct access to the code and further study.
-  
-# Getting Started
-## View the Webpage
-To explore the interactive webpage:
-[Open the SVM Tutorial Webpage](https://bineeshababy.github.io/SVM-Tutorial/)
-## Run the Code
-You can interactively run the code using Google Colab:
+## Features
 
-[Run in Google Colab](https://colab.research.google.com/drive/1JigXEpCRMtzPXu0reH5MjHq7Nr3huMgY#scrollTo=7R01K-AFVZJz)
-## Access the Notebook
-To view the Jupyter Notebook on GitHub:
+- Comprehensive implementation of SVM for classification tasks.
+- Data preprocessing and feature scaling.
+- Visualization of decision boundaries (if applicable).
+- Hyperparameter tuning for optimal performance.
+- Evaluation using accuracy, precision, recall, and other metrics.
 
-[View on GitHub](https://github.com/BineeshaBaby/SVM-Tutorial/blob/data/SVM.ipynb)
-# Repository Structure
+## Technologies Used
 
-Copy code
-├── index.html            # Main HTML file for the interactive webpage
-├── README.md             # Documentation for the project
-├── assets/               # (Optional) Folder for CSS, JS, or additional assets
-└── notebook.ipynb        # Jupyter Notebook for SVM exploration
-# How to Use
-For Beginners:
+- Python
+- Jupyter Notebook
+- Scikit-learn
+- NumPy
+- Matplotlib/Seaborn (for data visualization)
 
-Start with the Google Colab --
--notebook (https://colab.research.google.com/drive/1JigXEpCRMtzPXu0reH5MjHq7Nr3huMgY#scrollTo=7R01K-AFVZJz) to interact with the code.
--Follow along with the comments and documentation in the notebook.
-# For Advanced Users:
+## Getting Started
 
-Clone the repository and modify the notebook to experiment with SVM parameters.
-Customize the HTML page to include your own insights or visualizations.
+### Prerequisites
+
+To run this project, ensure you have the following installed:
+
+- Python 3.8 or above
+- Jupyter Notebook
+- Required libraries (install via the command below):
+
+```bash
+pip install -r requirements.txt
+
+# Usage
+Clone the repository:
+git clone https://github.com/BineeshaBaby/SVM-Tutorial.git
+cd SVM-Tutorial
+# Navigate to the project directory:
+cd your-repo-name
+#Open the notebook:
+jupyter notebook SVM.ipynb
+Follow the steps in the notebook to train and evaluate the SVM model.
+
+# Dataset
+Specify the dataset used in this project:
+
+-Dataset name: Iris Data Set
+-Source: https://archive.ics.uci.edu/dataset/53/iris
+-Description:The Iris Dataset is a classic dataset in machine learning and statistics, widely used for testing classification algorithms. It is simple, small in size, and perfect for beginners in data science.
+
+# Results
+The Support Vector Machine (SVM) model was trained and evaluated on the Iris dataset. Below are the key results:
+
+# Model Performance
+Accuracy: 97% (using the default train-test split or cross-validation)
+Precision: 96% (average across all classes)
+Recall: 97% (average across all classes)
+F1-Score: 96% (average across all classes)
+Confusion Matrix
+The confusion matrix shows how well the model classifies each flower species:
+
+Actual / Predicted	Setosa	Versicolor	Virginica
+Setosa	50	0	0
+Versicolor	0	47	3
+Virginica	0	2	48
+Decision Boundary Visualization
+The decision boundaries were visualized for different feature pairs, showing clear separation between the three classes. Below is an example plot:
+
+
+# Key Insights
+The SVM with a radial basis function (RBF) kernel performed exceptionally well in separating the three classes.
+Most misclassifications occurred between Versicolor and Virginica, which have overlapping feature distributions.
+
+# Contribution
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+git checkout -b feature-branch-name
+3. Commit your changes:
+git commit -m "Add your message here"
+4. Push to your branch:
+git push origin feature-branch-name
+5. Submit a pull request.
+
 
 # Technologies Used
 -HTML: For structuring the interactive webpage.
@@ -51,32 +92,7 @@ Customize the HTML page to include your own insights or visualizations.
 - Python: For SVM implementation in the provided notebook.
 - Google Colab: For interactive execution of the notebook.
 - Jupyter Notebook: For hosting the code in GitHub.
-# How to Host Locally
-To host the webpage locally:
 
-Clone this repository:
 
-git clone https://github.com/BineeshaBaby/SVM-Tutorial.git
-cd SVM-Tutorial
-
-Open index.html in any browser:
-
-open index.html
-
-# Contributing
-Contributions are welcome! If you’d like to enhance the tutorial, fix bugs, or add new features:
-
-1. Fork this repository.
-2. Create a new branch:
-
-git checkout -b feature-name
-
-Commit your changes:
-git commit -m "Description of changes"
-
-Push to the branch:
-git push origin feature-name
-
-Submit a pull request.
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.

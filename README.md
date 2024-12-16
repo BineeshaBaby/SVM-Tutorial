@@ -4,13 +4,13 @@ SVM Interactive Tutorial
 This repository contains an interactive tutorial for exploring Support Vector Machines (SVM). The tutorial includes a visualization of SVM decision boundaries and allows users to run the code interactively in Google Colab. The webpage is designed for both beginners and advanced users to better understand SVM concepts and practical implementations.
 
 # Features
-Interactive Webpage:
 
+1. Interactive Webpage:
 - A visually engaging HTML page that explains SVMs with interactive elements.
 - Hosted content designed for seamless user experience.
 - 
 2. Google Colab Integration:
-Users can run the provided code interactively in Google Colab, allowing experimentation and deeper learning.
+- Users can run the provided code interactively in Google Colab, allowing experimentation and deeper learning.
 
 3. GitHub Notebook:
 - The source notebook is available on GitHub for direct access to the code and further study.

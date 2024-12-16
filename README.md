@@ -12,13 +12,7 @@ This project implements Support Vector Machines (SVM), a powerful supervised lea
 - Hyperparameter tuning for optimal performance.
 - Evaluation using accuracy, precision, recall, and other metrics.
 
-## Technologies Used
 
-- Python
-- Jupyter Notebook
-- Scikit-learn
-- NumPy
-- Matplotlib/Seaborn (for data visualization)
 
 ## Getting Started
 
@@ -101,8 +95,8 @@ git push origin feature-branch-name
 
 
 # Technologies Used
--HTML: For structuring the interactive webpage.
--CSS: For styling and improving the visual presentation.
+- HTML: For structuring the interactive webpage.
+- CSS: For styling and improving the visual presentation.
 - Python: For SVM implementation in the provided notebook.
 - Google Colab: For interactive execution of the notebook.
 - Jupyter Notebook: For hosting the code in GitHub.

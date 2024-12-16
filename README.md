@@ -29,7 +29,7 @@ To run this project, ensure you have the following installed:
 - Python 3.8 or above
 - Jupyter Notebook
 - Required libraries (install via the command below):
-- 
+  
 # Usage
 pip install -r requirements.txt
 

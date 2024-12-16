@@ -5,14 +5,14 @@ This repository contains an interactive tutorial for exploring Support Vector Ma
 
 # Features
 
-1. Interactive Webpage:
+# 1. Interactive Webpage:
 - A visually engaging HTML page that explains SVMs with interactive elements.
 - Hosted content designed for seamless user experience.
-- 
-2. Google Colab Integration:
+  
+# 2. Google Colab Integration:
 - Users can run the provided code interactively in Google Colab, allowing experimentation and deeper learning.
 
-3. GitHub Notebook:
+# 3. GitHub Notebook:
 - The source notebook is available on GitHub for direct access to the code and further study.
   
 # Getting Started
